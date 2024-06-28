@@ -11,11 +11,6 @@ JavaScript Student
 ## Language skills
 - English - pre-intermidiate, good reading and translating ability
 - Russian - native
-## Education 
-- September 2013 – July 2016 - Belarusian State Medical College, Nurse
-- September 2018 – July 2021 - Belarusian State Medical College, Minsk Medical assistant-obstetrician. A doctor assistant in outpatient care
-- November 2021 – May 2022 - Graphic Design, YPracticum
-- August 2023 – September 2024 - Advanced training courses for the program "Selected Issues of Electrocardiography", Belarusian State Medical College
 ## Skills 
 - Communication skills, creativity, leadership skills
 - Teamwork, ability to multitask
@@ -24,3 +19,8 @@ JavaScript Student
 - Digital Photography
 - Fast Learner
 - Adaptability
+## Education 
+- September 2013 – July 2016 - Belarusian State Medical College, Nurse
+- September 2018 – July 2021 - Belarusian State Medical College, Minsk Medical assistant-obstetrician. A doctor assistant in outpatient care
+- November 2021 – May 2022 - Graphic Design, YPracticum
+- August 2023 – September 2024 - Advanced training courses for the program "Selected Issues of Electrocardiography", Belarusian State Medical College
