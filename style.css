@@ -1,1 +1,18 @@
 style.css
+body font-family: 'Montserrat' 
+header <header class = "header">
+main 
+footer
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/MontseratThin.ttf");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("assets/fonts/MontserratRegular.ttf");
+    font-weight: 300;
+  }
+  * {
+    box-sizing: border-box;
+  }
