@@ -1,18 +1,88 @@
-style.css
-<body> font-family: 'Montserrat' 
-<header> <header class = "header">
-<main> 
-<footer>
-@font-face {
-    font-family: "Montserrat";
-    src: url("assets/fonts/MontseratThin.ttf");
-    font-weight: 100;
-  }
-  @font-face {
-    font-family: "Montserrat";
-    src: url("assets/fonts/MontserratRegular.ttf");
-    font-weight: 300;
-  }
-  * {
-    box-sizing: border-box;
-  }
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 100;
+  padding: 50;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Header Styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
+  font-size: 36px;
+}
+
+header p {
+  margin-bottom: 10px;
+}
+
+header img {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Contacts and Photo Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table img.image {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Section Styles */
+section {
+  margin-top: 40px;
+}
+
+section h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ol li {
+  margin-bottom: 20px;
+}
+
+ol li h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+ol li p {
+  margin: 5px 0;
+}
