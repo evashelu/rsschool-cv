@@ -1,88 +1,106 @@
-/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  margin: 100px;
-  padding: 50px;
-  background-color: #f4f4f4;
-}
-
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 40px;
-}
-
-/* Header Styles */
-header {
-  background-color: #333;
-  color: #fff;
+  font-family: 'Montserrat', regular;
+  margin: 20px;
   padding: 20px;
+  background-color: #d9d1ff;
+}
+
+header {
+  background-color: #333333;
+  color: #d6d6d6;
+  padding: 30px;
   text-align: center;
 }
 
 header h1 {
-  margin-top: 0;
-  font-size: 36px;
+  font-size: 40px;
+  margin-bottom: 2px;
 }
 
 header p {
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin: 2px;
 }
 
-header img {
-  width: 128px;
-  height: 128px;
-  border-radius: 50%;
+header .image {
   margin-top: 20px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Contacts and Photo Table */
 table {
-  width: 100%;
+  width: 80%;
+  margin: 40px auto;
   border-collapse: collapse;
-  margin-top: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 table th, table td {
-  padding: 10px;
+  padding: 20px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
 
-table img.image {
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table td ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+table td ul li {
+  margin-bottom: 5px;
+}
+
+table td img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Section Styles */
-section {
-  margin-top: 40px;
-}
-
-section h2 {
+h2 {
   color: #333;
+  margin-top: 40px;
   font-size: 24px;
-  margin-top: 0;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0 0 20px 0;
 }
 
 ul li {
   margin-bottom: 10px;
 }
 
+ol {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 ol li {
   margin-bottom: 20px;
 }
 
-ol li h3 {
-  color: #333;
-  margin-bottom: 5px;
-}
 
-ol li p {
-  margin: 5px 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
