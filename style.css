@@ -1,106 +1,90 @@
-body {
-  font-family: 'Montserrat', regular;
-  margin: 20px;
-  padding: 20px;
-  background-color: #d9d1ff;
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Montserrat.ttf");
 }
-
+* {
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+body {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 1.5;
+  color: #3d5677;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
 header {
-  background-color: #333333;
-  color: #d6d6d6;
+  background-color: #686868;
+  color: #e4e3e3;
   padding: 30px;
   text-align: center;
 }
-
 header h1 {
-  font-size: 40px;
-  margin-bottom: 2px;
+  margin: 0;
+  font-size: 26px;
 }
-
 header p {
-  font-size: 18px;
-  margin: 2px;
+  margin: 20px;
+  font-size: 20px;
 }
-
 header .image {
-  margin-top: 20px;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
 }
-
-table {
-  width: 80%;
-  margin: 40px auto;
-  border-collapse: collapse;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-table th, table td {
+main {
+  font-size: 20px;
   padding: 20px;
-  text-align: left;
-  border-bottom: 1px solid #ddd;
 }
-
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
 table th {
-  background-color: #333;
-  color: #fff;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #8d8d8d;
 }
-
-table td ul {
-  list-style-type: none;
+table th {
+  background-color: #c2dbfa;
+}
+section {
+  font-size: 18px;
+  margin-bottom: 50px;
+  padding: 2px;
+}
+section h2 {
+  font-size: 24px;
+  margin: 20px;
+}
+section ul {
+  font-size: 18px;
+  list-style-type: circle;
+  padding: 30px;
+}
+section ul li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+section ol li {
+  font-size: 18px;
   padding: 0;
   margin: 0;
 }
-
-table td ul li {
-  margin-bottom: 5px;
-}
-
-table td img {
+.image {
   max-width: 100%;
   height: auto;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
-
-h2 {
-  color: #333;
-  margin-top: 40px;
-  font-size: 24px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-ol {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-ol li {
-  margin-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
