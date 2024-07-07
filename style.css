@@ -27,28 +27,27 @@ body {
 }
 header {
   background-color: #373838;
-  box-shadow: 10px 3px 25px rgb(196, 167, 40);
   color: #e4e3e3;
   padding: 10px;
   text-align: center;
   }
 header h1 {
+  font-size: 24px;
   margin: 0;
-  font-size: 20px;
 }
 header p {
-  font-size: 18px;
+  font-size: 20px;
   margin: 10px;
 }
 header .image {
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
-  box-shadow: 10px 3px 25px rgb(196, 167, 40);
-  margin-top: 10px;
+  margin: 0;
 }
 main {
-  font-size: 16px;
+  font-size: 18px;
   padding: 50px;
-  box-shadow: 10px 3px 25px rgb(196, 167, 40);
 }
 table {
   width: 100%;
@@ -61,6 +60,7 @@ table {
     padding: 20px;
   }
 table th {
+  font-size: 18px;
   box-shadow: 10px 3px 25px rgb(196, 167, 40);
   margin: 10px;
   padding: 20px;
@@ -71,13 +71,13 @@ table th {
   background-color: #e4e3e3;
 }
 section {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 50px;
   padding: 2px;
   box-shadow: 10px 3px 25px rgb(196, 167, 40);
 }
 section h2 {
-  font-size: 20px;
+  font-size: 18px;
   margin: 20px;
 }
 section ul {
@@ -100,4 +100,9 @@ section ol li {
 .image {
   max-width: 100%;
   height: auto;
+}
+section footer {
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
 }
