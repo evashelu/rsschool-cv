@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Roboto;
+  font-family: Montserrat;
   src: url("assets/fonts/Montserrat.ttf");
 }
 * {
@@ -12,9 +12,9 @@
 }
 body {
   font-family: "Montserrat";
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
-  color: #3d5677;
+  color: #2d415c;
 }
 body {
   display: flex;
@@ -26,64 +26,77 @@ body {
   margin: 0 auto;
 }
 header {
-  background-color: #686868;
+  background-color: #373838;
+  box-shadow: 10px 3px 25px rgb(196, 167, 40);
   color: #e4e3e3;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-}
+  }
 header h1 {
   margin: 0;
-  font-size: 26px;
+  font-size: 20px;
 }
 header p {
-  margin: 20px;
-  font-size: 20px;
+  font-size: 18px;
+  margin: 10px;
 }
 header .image {
   border-radius: 50%;
+  box-shadow: 10px 3px 25px rgb(196, 167, 40);
   margin-top: 10px;
 }
 main {
-  font-size: 20px;
-  padding: 20px;
+  font-size: 16px;
+  padding: 50px;
+  box-shadow: 10px 3px 25px rgb(196, 167, 40);
 }
 table {
   width: 100%;
   border-collapse: collapse;
   margin-bottom: 10px;
 }
+  img {
+    height: 500px;
+    width: 500px;
+    padding: 20px;
+  }
 table th {
+  box-shadow: 10px 3px 25px rgb(196, 167, 40);
   margin: 10px;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
-  border-bottom: 1px solid #8d8d8d;
+  border-bottom: 1px solid #e4e3e3;
 }
 table th {
-  background-color: #c2dbfa;
+  background-color: #e4e3e3;
 }
 section {
-  font-size: 18px;
+  font-size: 14px;
   margin-bottom: 50px;
   padding: 2px;
+  box-shadow: 10px 3px 25px rgb(196, 167, 40);
 }
 section h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 20px;
 }
 section ul {
-  font-size: 18px;
+  font-size: 16px;
   list-style-type: circle;
   padding: 30px;
+  margin: 5px;
 }
 section ul li {
-  font-size: 18px;
-  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
 }
 section ol li {
-  font-size: 18px;
-  padding: 0;
-  margin: 0;
+  font-size: 16px;
+  padding: 5px;
+  margin: 5px;
 }
+
 .image {
   max-width: 100%;
   height: auto;
