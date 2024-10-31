@@ -23,9 +23,9 @@
 - Digital Photography.
 
 ## Code example 
-> function greet (){
-return  "hello world!"
-}// Write a function "greet" that returns "hello world!"
+> # function greet (){
+> # return  "hello world!"
+> # }// Write a function "greet" that returns "hello world!"
 
 ## Courses 
 1. JS/FE Pre-School 2024Q2
