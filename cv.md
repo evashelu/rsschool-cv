@@ -23,7 +23,7 @@
 - Digital Photography.
 
 ## Code example 
-![Image](/codeexample.jpg)
+![Image](/rsschool-cv/codeexample.jpg)
 
 ## Courses 
 1. JS/FE Pre-School 2024Q2
