@@ -23,7 +23,9 @@
 - Digital Photography.
 
 ## Code example 
-![Image](/rsschool-cv/codeexample.jpg)
+....function greet (){
+....return  "hello world!"
+....}// Write a function "greet" that returns "hello world!"
 
 ## Courses 
 1. JS/FE Pre-School 2024Q2
@@ -32,4 +34,7 @@
 ## Education 
 - November 2021 – May 2022 - Graphic Design, YPracticum;
 - September 2018 – July 2021 - Belarusian State Medical College, Minsk Medical assistant-obstetrician. A doctor assistant in outpatient care;
-- August 2023 – September 2024 - Advanced training courses for the program "Selected Issues of Electrocardiography", Belarusian State Medical College.
+- August 2023 – September 2024 - Advanced training courses for the program "Selected Issues of Electrocardiography", Belarusian State Medical College. 
+
+## Expirience 
+- JavaScript/Front-end 2024Q4 course (**in progress**)
